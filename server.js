@@ -20,7 +20,7 @@ app.set("view engine" , "handlebars");
 var routes = require("./controllers/routes.js");
 app.use('/' , routes);
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3001;
 
 app.listen(PORT, function() {
     console.log("Server listening on: http://localhost:" + PORT);
